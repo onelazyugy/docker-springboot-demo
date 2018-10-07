@@ -17,3 +17,11 @@
 - $ docker run -p 5001:8080 docker-demo //run your docker image that you just build on port 5000
 - $ docker container ls //list all of your running container
 - $ docker stop <CONTAINER ID> // to stop a container.. you can run $ docker container ls to get your CONTAINER ID
+
+# Push Docker image to docker hub
+- $ docker login
+- $ docker tag image username/repository:tag //tag a local image to be push to docker hub
+- $ docker tag docker-demo onelazyguy/docker-springboot-demo:0.0.1-SNAPSHOT //this is an example
+- $ docker image ls //show the newly tagged image
+- $ docker push <your_docker_hub_id>/docker-springboot-demo:0.0.1-SNAPSHOT 
+- $ docker push onelazyguy/docker-springboot-demo:0.0.1-SNAPSHOT //this is an example
