@@ -25,3 +25,4 @@
 - $ docker image ls //show the newly tagged image
 - $ docker push <your_docker_hub_id>/docker-springboot-demo:0.0.1-SNAPSHOT 
 - $ docker push onelazyguy/docker-springboot-demo:0.0.1-SNAPSHOT //this is an example
+- here is the image I push to my dockerhub (https://hub.docker.com/r/onelazyguy/docker-springboot-demo/)
