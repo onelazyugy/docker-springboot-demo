@@ -14,7 +14,7 @@
 # Docker command
 - $ docker build -t docker-demo . //dockerize your springboot app using Dockerfile
 - $ docker image ls //see list of docker images
-- $ docker run -p 5001:8080 docker-demo //run your docker image that you just build on port 5000
+- $ docker run -d -p 5001:8080 docker-demo //run your docker image that you just build on port 5000 in the background
 - $ docker container ls //list all of your running container
 - $ docker stop <CONTAINER ID> // to stop a container.. you can run $ docker container ls to get your CONTAINER ID
 
